@@ -40,9 +40,14 @@ Tools:
 2019-02-20:
 - Readme Created
 - Live Link Created
-- Challenge 1 folder with base folders added
 - Script added in HTML
+- Challenge 1 folder with base folders added
+- Challenge 1 completed
 - Challenge 2 folder with base folders added
+- Challenge 2 completed
+- Challenge 3 folder with base folders added
+- Challenge 3 completed
+- Challenge 4 folder with base folders added
 
 ## Contributors
 
