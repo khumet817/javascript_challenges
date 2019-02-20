@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Build A Rainbow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div style="max-width:800px; text-align: center; margin: 150px;">
+        <!-- RED -->
+        <div id="block1" onclick="redFunction()">RED</div>
+        
+        <!-- ORANGE -->
+        <div id="block2" onclick="orangeFunction()">ORANGE</div>
+        
+        <!-- YELLOW -->
+        <div id="block3" onclick="yellowFunction()">YELLOW</div>
+        
+        <!-- GREEN -->
+        <div id="block4" onclick="greenFunction()">GREEN</div>
+        
+        <!-- BLUE -->
+        <div id="block5" onclick="blueFunction()">BLUE</div>
+        
+        <!-- INDIGO -->
+        <div id="block6" onclick="indigoFunction()">INDIGO</div>
+        
+        <!-- VIOLET -->
+        <div id="block7" onclick="violetFunction()">VIOLET</div>
+    </div>
+
+    <script>
+        function redFunction() {
+            document.getElementById("block1").style.background = "red";
+        }
+
+        function orangeFunction() {
+            document.getElementById("block2").style.background = "orange";
+        }
+
+        function yellowFunction() {
+            document.getElementById("block3").style.background = "yellow";
+        }
+
+        function greenFunction() {
+            document.getElementById("block4").style.background = "green";
+        }
+
+        function blueFunction() {
+            document.getElementById("block5").style.background = "blue";
+        }
+
+        function indigoFunction() {
+            document.getElementById("block6").style.background = "indigo";
+        }
+
+        function violetFunction() {
+            document.getElementById("block7").style.background = "violet";
+        }
+    </script>
+</body>
+</html>
