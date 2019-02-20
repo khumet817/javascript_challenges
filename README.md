@@ -41,6 +41,7 @@ Tools:
 - Challenge 1 folder with base folders added
 - Readme Created
 - Live Link Created
+- Script added in HTML
 
 ## Contributors
 
