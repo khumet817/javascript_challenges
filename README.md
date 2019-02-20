@@ -38,10 +38,11 @@ Tools:
 ### Changelog
 
 2019-02-20:
-- Challenge 1 folder with base folders added
 - Readme Created
 - Live Link Created
+- Challenge 1 folder with base folders added
 - Script added in HTML
+- Challenge 2 folder with base folders added
 
 ## Contributors
 
