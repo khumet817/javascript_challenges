@@ -11,7 +11,7 @@
         p {
             text-align: center;
             font-size: 4em;
-            margin: 0 10em;
+            margin: 2em;
         }
     </style>
 </head>
@@ -21,27 +21,27 @@
     <script>
         // Tabile Khume's birthday
         let birthday = new Date("Dec 24, 2019 00:00:00").getTime();
-            x = setInterval(function() {
+            countdownUpdate = setInterval(function() {
                     // Today's Date
                 let present = new Date().getTime();
                     // Distance between today and birthday
                     distance = birthday - present;
 
                     // Calculations for days, hours, minutes and seconds
-                    let days = Math.floor(distance / (365 * 60 * 60 * 24));
-                        hours = Math.floor((distance % (365 * 60 * 60 * 24)) / (365 * 60 * 60));
-                        minutes = Math.floor((distance % (365 * 60 * 60)) / (365 * 60));
-                        seconds = Math.floor((distance % (365 * 60)) / 365);
+                    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                     // Output
-                    document.getElementById("countdownTimer").innerHTML = days + hours + minutes + seconds;
+                    document.getElementById("countdownTimer").innerHTML = days + "days " + hours + "hours " + minutes + "minutes " + seconds + "seconds left.";
 
                     // TIMEOUT
                     if (distance < 0) {
-                        clearInterval(x);
+                        clearInterval(countdownUpdate);
                         document.getElementById("countdownTimer").innerHTML = "Happy Birthday Tabile Khume!";
                     }
-            }, 365);
+            }, 1000);
     </script>
 </body>
 </html>
